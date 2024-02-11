@@ -55,11 +55,11 @@ export default function Calculate() {
           <th>+/-</th>
         </tr>
         <tbody>
-          {Object.keys(userExpenses).map((username) => (
-            <tr key={username}>
-              <td>{username}</td>
-              <td>{userExpenses?.[username]?.balance ?? 0}</td>
-              <td>{userExpenses?.[username]?.loan ?? "-"}</td>
+          {session?.users?.map(({ name }) => (
+            <tr key={name}>
+              <td>{name}</td>
+              <td>{userExpenses?.[name]?.balance ?? 0}</td>
+              <td>{userExpenses?.[name]?.loan ?? "-"}</td>
             </tr>
           ))}
           <tr>

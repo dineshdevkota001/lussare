@@ -23,7 +23,10 @@ function AddFood() {
     const price = formData.get("price") as string;
     const quantity = formData.get("quantity") as string;
 
-    if (!users.length) return;
+    if (!users.length) {
+      alert("No users selected");
+      return;
+    }
 
     setFoods((foods) => {
       foods.push({
