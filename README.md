@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Introduction
+
+Lussare is a way to share lunch money among the participants. No
+longer will you have to share the Lunch cost for the dishes you didnt
+eat. This app takes care of who ate what and records it. Then, it uses
+my proprietary &rdquo; advanced machine algorithm &ldquo; to process
+the data, and regurgitates who has to pay how much. you can then
+choose to balance out the finances yourself.
+
+## Is the project complete?
+
+As a matter of fact no. But, i dont plan to work on this currently. I had a few features in line. but i doubt i have time to complete those.
+
+For those curious, here was my original plan. Currently i have only completed upto where i think it will be useful:
+
+- [x] Division
+- [ ] Balance calculation
+- [ ] Name Suggestions
+- [ ] Remember Dishes and Users
+- [ ] Cloud Sync
+- [ ] Integrate with resturant menus and provide a seamless experience
 
 ## Getting Started
 
