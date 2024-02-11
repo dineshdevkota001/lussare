@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Play } from "next/font/google";
 import "./globals.css";
-import clsx from "clsx";
 
 const inter = Play({ weight: "400", subsets: ["latin"] });
 
@@ -16,10 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={clsx(inter.className, "prose dark:prose-invert ")}>
-        {children}
-      </body>
+    <html lang="en" className="prose">
+      <body className={`${inter.className}`}>{children}</body>
     </html>
   );
 }
